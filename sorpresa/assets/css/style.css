@@ -1,4 +1,5 @@
-body {
+body,
+nav {
   background-color: #000000;
   font-family: Arial, sans-serif;
   color: #ffffff;
@@ -9,6 +10,9 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+nav {
+  background-color: transparent;
 }
 #image-background {
   position: fixed;
@@ -36,6 +40,21 @@ figure {
   top: 4.5%;
   position: absolute;
   z-index: 1;
+}
+@media (max-width: 600px) {
+  section .sombrero.de.cumpleaños {
+    width: 90px;
+    height: 100px;
+  }
+  nav {
+    margin: -20px;
+  }
+  figure {
+    width: 5%;
+    height: 2.5%;
+    border-radius: 100%;
+    top: 2.5%;
+  }
 }
 .sombrero.de.cumpleaños {
   position: relative;
@@ -100,7 +119,7 @@ div::before {
 .piso-1 {
   background-color: #ffd1dc;
   width: 150px;
-  height: 90px;
+  height: 60px;
   border-radius: 10px;
   position: relative;
   display: flex;
@@ -112,7 +131,7 @@ div::before {
   display: flex;
   background-color: #f49ac2;
   width: 250px;
-  height: 90px;
+  height: 60px;
   border-radius: 10px;
   box-shadow: #f49ac2 0px 7px 15px;
 }
@@ -120,7 +139,7 @@ div::before {
 .piso-3 {
   background-color: #b185db;
   width: 350px;
-  height: 90px;
+  height: 60px;
   border-radius: 10px;
   position: relative;
   display: flex;
