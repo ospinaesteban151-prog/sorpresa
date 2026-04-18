@@ -33,7 +33,7 @@ section {
   filter: drop-shadow(0px 0px 19px #e2e2e2);
 }
 figure {
-  background-color: #ff3737;
+  background-color: #50C878;
   width: 5%;
   height: 5%;
   border-radius: 100%;
@@ -64,10 +64,10 @@ figure {
   height: 100px;
   background-image: repeating-linear-gradient(
     40deg,
-    #ff3737,
-    #ff3737 10px,
-    #082ff1 10px,
-    #082ff1 25px
+    #FFD700 0px,
+    #FFD700 10px,
+    #50C878 10px,
+    #50C878 25px
   );
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   bottom: -80px;
@@ -92,7 +92,7 @@ div::before {
   font-size: 50px;
   margin: 20px;
   color: #ffd1dc;
-  text-shadow: 0px 0px 20px #ffd1dc;
+  text-shadow: 0px 0px 20px #50C878;
   margin: 0%;
   margin-bottom: -1.2%;
 }
@@ -118,33 +118,33 @@ div::before {
 }
 
 .piso-1 {
-  background-color: #ffd1dc;
+  background-color: #50C878;
   width: 150px;
   height: 60px;
   border-radius: 10px;
   position: relative;
   display: flex;
-  box-shadow: #ffd1dc 0px 7px 15px;
+  box-shadow: #50C878 0px 7px 15px;
 }
 
 .piso-2 {
   position: relative;
   display: flex;
-  background-color: #f49ac2;
+  background-color: #50C878;
   width: 250px;
   height: 60px;
   border-radius: 10px;
-  box-shadow: #f49ac2 0px 7px 15px;
+  box-shadow: #50C878 0px 7px 15px;
 }
 
 .piso-3 {
-  background-color: #b185db;
+  background-color: #50C878;
   width: 350px;
   height: 60px;
   border-radius: 10px;
   position: relative;
   display: flex;
-  box-shadow: #b185db 0px 7px 15px;
+  box-shadow: #50C878 0px 7px 15px;
 }
 
 .boton {
