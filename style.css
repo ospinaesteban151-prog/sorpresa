@@ -1,0 +1,157 @@
+body,
+nav {
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: transparent;
+}
+#image-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.Sara {
+  height: 150px;
+  width: 150px;
+  max-width: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 7px 15px, 0 0 25px #d1b529;
+  z-index: 1;
+  position: relative;
+}
+section {
+  filter: drop-shadow(0px 0px 19px #e2e2e2);
+}
+
+
+div::before {
+  content: "";
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(
+    circle at top,
+    #ffffff 70%,
+    transparent 70%
+  );
+  background-size: 40px;
+  background-position: 50%;
+}
+.velas {
+  position: relative;
+  font-size: 50px;
+  margin: 20px;
+  color: #ffffff;
+  text-shadow: 0px 0px 20px #50C878;
+  margin: 0%;
+  margin-bottom: -1.2%;
+}
+.velas::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 15px;
+  background-color: #fff;
+  top: -9.5%;
+  left: 22.3%;
+  box-shadow: 0px -5px 5px #b1bc30a5;
+}
+.velas::after {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 15px;
+  background-color: #fff;
+  top: -10%;
+  left: 75%;
+  box-shadow: 0px -5px 5px #b1bc30a5;
+}
+
+.piso-1 {
+  background-color: #50C878;
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  box-shadow: #50C878 0px 7px 15px;
+}
+
+.piso-2 {
+  position: relative;
+  display: flex;
+  background-color: #50C878;
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: #50C878 0px 7px 15px;
+}
+
+.piso-3 {
+  background-color: #50C878;
+  width: 350px;
+  height: 65px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  box-shadow: #50C878 0px 7px 15px;
+}
+
+.boton {
+  background-color: #ca7ff6;
+  color: rgb(3, 3, 3);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: #ca7ff6 0px 7px 15px;
+  border: 2px solid #ca7ff6;
+  border-radius: 100px;
+}
+.vela {
+  background-color: #ff7d7d;
+  width: 20px;
+  height: 50px;
+  border-radius: 10px;
+  position: relative;
+}
+h1:last-of-type {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  /* Brillo suave tipo hada */
+  text-shadow: 0 0 15px rgba(202, 127, 246, 0.7); 
+}
+h2:last-of-type {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  /* Brillo suave tipo hada */
+  text-shadow: 0 0 15px rgba(202, 127, 246, 0.7); 
+}
+p {
+  font-size: 20px;
+  margin: 0;
+}
+
